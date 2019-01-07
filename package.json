@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "node-telegram-bot-api": "0.30.3",
     "axios": "0.18.0",
     "lodash": "4.17.10",
-    "node-telegram-bot-api": "0.30.0",
     "xml-js": "1.6.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/lodash": "4.14.119",
+    "@types/node": "10.12.18",
+    "@types/node-telegram-bot-api": "0.30.3",
+    "typescript": "3.2.2"
+  },
   "scripts": {
     "start": "TOKEN='' node index.js"
   },
